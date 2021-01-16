@@ -1,0 +1,21 @@
+<%-include('partials/header.ejs')%>
+
+<div class="login container">
+    <img class="logo"src="images/login.png" alt="">
+    <h1 id="whisper">Login</h1>
+    
+    <form action="/login" method="post" class="loginForm form-control">
+        <label for="username">Username:</label><br>
+        <input type="text" name="username" value="" placeholder="Username"><br>
+        <label for="Password:">Password:</label><br>
+        <input type="password" name="password" value="" placeholder="Password"><br>
+        <button role="button" class="logBtn btn btn-outline-dark">Login</button>
+        
+    </form>
+    
+</div>
+
+
+
+<%-include('partials/footer.ejs')%>
+       

@@ -1,0 +1,70 @@
+body{
+
+    font-family: 'Poppins', sans-serif;
+    background: #FC354C;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0ABFBC, #FC354C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+}
+
+.logo{
+
+    width:15%;
+    height:15%;
+    background-color: #fff;
+    border-radius: 100%;
+    border:2px solid  #fff;
+    margin:auto;
+    display:block;
+    margin-bottom: 5%;
+
+
+}
+.loginBtn, .registerBtn{
+    margin:auto;
+    width:30%;
+    display:block;
+    background-color: white;
+}
+.home{
+    margin-top:7%;
+}
+footer{
+    bottom:0;
+    left:0;
+    text-align: center;
+    background-color: #fff;
+    position:fixed;
+    width:100%;
+}
+#welcome{
+    font-family: 'Poppins', sans-serif;
+    color:#fff;
+    text-align: center;
+}
+#whisper{
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+
+}
+
+.loginForm{
+    display:block;
+    padding:2%;
+    width:20%;
+    margin:auto;
+    text-align:left;
+}
+.login{
+    margin-top: 7%;
+    display: block;
+    margin:center;
+}
+.logBtn{
+    margin-top:5%;
+}
+label{
+    text-align: left;
+}
